@@ -1,0 +1,63 @@
+discipline: "Защита информации в ТКС"
+title: "Лекция №4"
+course: cyber
+name: test
+pools:
+  - select: 'sequence' # 'random', 'sequence', '[1,2;0,1;2,3]'
+    number: 3
+    items:
+      - question: "Процесс, при котором характеристика одной волны изменяет другую волну - это:"
+        answer:
+        - right: true
+          text: "Модуляция"
+        - right: false
+          text: "Кодирование"
+        - right: false
+          text: "Асинхронная передача"
+        - right: false
+          text: "Шифрование"
+        cost: 3
+      - question: "Какой тип кабеля маркируется как UTP?"
+        answer:
+        - right: true
+          text: "Неэкраннированная витая пара"
+        - right: false
+          text: "Экранированная витая пара"
+        - right: false
+          text: "Коаксиальный кабель"
+        - right: false
+          text: "Оптоволоконный кабель"
+        cost: 2
+      - question: "Какой стандарт описывает технологию Wi-Fi?"
+        answer:
+        - right: true
+          text: "Стандарт IEEE 802.11"
+        - right: false
+          text: "Стандарт IEEE 802.3"
+        - right: false
+          text: "Стандарт IEEE 802.15"
+        - right: false
+          text: "Стандарт IEEE 802.16"
+        cost: 2
+      - question: "Какая физическая топология не позволяет использовать дуплексный режим передачи данных?"
+        answer:
+        - right: true
+          text: "Шина"
+        - right: false
+          text: "Звезда"
+        - right: false
+          text: "Кольцо"
+        - right: false
+          text: "Точка-точка"
+        cost: 3
+  - select: 'sequence' # 'random', ''
+    number: 1
+    items:
+      - question: "Закодировать заданное слово шифром Вижинера. \n\tАнглийский алфавит: ABCDEFGHIJKLMNOPQRSTUVWXYZ\n\tM={0} и K={1}. E=?"
+        app: true
+        script: 'vigener'
+        parameters: 'ABBACBA;CAB'
+        answer:
+          - right: true
+            text: ""
+        cost: 10
