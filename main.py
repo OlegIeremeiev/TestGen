@@ -60,12 +60,14 @@ def generate_test(config, variants):
     test['questions'] = questions
     return test
 
+
 def write_test(tests, students):
     doc = TestDocx()
     doc.write_test(tests, students)
 
+
 if __name__ == '__main__':
-    configpath = 'tests/tis/module_2.yaml'
+    configpath = 'tests/cyber/module_2.yaml'
     config = yaml.load(open(configpath,'r'), Loader=yaml.SafeLoader)
     print("{0} : {1}".format(config['course'],config['name']))
     main(config)
