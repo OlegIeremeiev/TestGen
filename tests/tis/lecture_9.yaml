@@ -1,0 +1,132 @@
+discipline: "Телекоммуникационные и информационные сети"
+title: "Лекция №9"
+course: tis
+name: lecture_9
+pools:
+  - select: 'random' # 9.1
+    number: 2
+    items:
+      - question: "За что не отвечает транспортный уровень модели OSI?"
+        answer:
+        - right: true
+          text: "Маршрутизацию"
+        - right: false
+          text: "Поддержку сеансов связи"
+        - right: false
+          text: "Повторную пересылку пакетов"
+        - right: false
+          text: "Мультиплексирование"
+        cost: 3
+      - question: "Каким образом ТCP обеспечивает надежность?"
+        answer:
+        - right: true
+          text: "Пересылкой неподтвержденных пакетов"
+        - right: false
+          text: "Дублированием пакетов по разным маршрутам"
+        - right: false
+          text: "Не гарантирует доставку"
+        - right: false
+          text: "Пересылкой всех пакетов по таймауту"
+        cost: 3
+      - question: "В чем преимущество протокола UDP?"
+        answer:
+        - right: true
+          text: "Высокое быстродействие"
+        - right: false
+          text: "Надежность передачи"
+        - right: false
+          text: "Обеспечивает выбор кратчайшего маршрута"
+        - right: false
+          text: "Во всем хуже чем TCP"
+        cost: 3
+      - question: "Для каких данных/протоколов используется протокол ТCP?"
+        answer:
+          - right: true
+            text: "HTTP"
+          - right: false
+            text: "VoIP"
+          - right: false
+            text: "IPTV"
+          - right: false
+            text: "DHCP"
+        cost: 3
+      - question: "Для каких данных/протоколов используется протокол UDP?"
+        answer:
+          - right: true
+            text: "DNS"
+          - right: false
+            text: "SMTP"
+          - right: false
+            text: "Telnet"
+          - right: false
+            text: "SSH"
+        cost: 3
+      - question: "Для чего нужен порт в транспортном уровне?"
+        answer:
+          - right: true
+            text: "идентификации приложения"
+          - right: false
+            text: "стоянка для кораблей"
+          - right: false
+            text: "построения маршрута"
+          - right: false
+            text: "порт не является элементом транспортного уровня"
+        cost: 3
+      - question: "Что такое сокет?"
+        answer:
+          - right: true
+            text: "комбинация IP-адреса и номера порта"
+          - right: false
+            text: "комбинация IP-адресов отправителя и получателя"
+          - right: false
+            text: "комбинация портов отправителя и получателя"
+          - right: false
+            text: "Системная служба, гарантирующая мультиплексирование пакетов"
+        cost: 3
+  - select: 'random' # 9.2
+    number: 1
+    items:
+      - question: "Какое поле заголовка TCP позволяет восстановить нужную последовательность сегментов данных?"
+        answer:
+        - right: true
+          text: "Порядковый номер"
+        - right: false
+          text: "Номер подтверждения"
+        - right: false
+          text: "Порт источника"
+        - right: false
+          text: "Контрольная сумма"
+        cost: 3
+      - question: "Какое поле заголовка TCP позволяет определить потерянные пакеты данных?"
+        answer:
+        - right: true
+          text: "Номер подтверждения"
+        - right: false
+          text: "Порядковый номер"
+        - right: false
+          text: "Порт источника"
+        - right: false
+          text: "Контрольная сумма"
+        cost: 3
+      - question: "Какое поле заголовка TCP позволяет определить какое клиентское приложение делает запрос?"
+        answer:
+        - right: true
+          text: "Порт источника"
+        - right: false
+          text: "Порядковый номер"
+        - right: false
+          text: "Номер подтверждения"
+        - right: false
+          text: "Контрольная сумма"
+        cost: 3
+      - question: "Какое поле заголовка TCP позволяет определить целостность сегмента?"
+        answer:
+        - right: true
+          text: "Контрольная сумма"
+        - right: false
+          text: "Порядковый номер"
+        - right: false
+          text: "Номер подтверждения"
+        - right: false
+          text: "Порт источника"
+        cost: 3

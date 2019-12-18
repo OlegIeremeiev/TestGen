@@ -1,0 +1,152 @@
+discipline: "Телекоммуникационные и информационные сети"
+title: "Лекция №11"
+course: tis
+name: lecture_11
+pools:
+  - select: 'random' # 'random', 'sequence', '[1,2;0,1;2,3]'
+    number: 5
+    items:
+      - question: "Проектирование небольшой сети не предполагает:"
+        answer:
+        - right: true
+          text: "подключения значительного количества устройств"
+        - right: false
+          text: "резервирования каналов и серверов"
+        - right: false
+          text: "обеспечения безопасности"
+        - right: false
+          text: "использование топологий"
+        cost: 2
+      - question: "Для чего администратору могут потребоваться сведения о типовых задачах предприятия?"
+        answer:
+        - right: true
+          text: "для настройки QoS"
+        - right: false
+          text: "не требуется"
+        - right: false
+          text: "не предоставляется, является коммерческой тайной"
+        - right: false
+          text: "для обеспечения резервирования"
+        cost: 2
+      - question: "Что не обязательно при проектировании расширения сети?"
+        answer:
+        - right: true
+          text: "Изменение WAN подключения"
+        - right: false
+          text: "Инвентаризация"
+        - right: false
+          text: "Бюджет"
+        - right: false
+          text: "Сетевая документация"
+        cost: 2
+      - question: "Для чего администратору может понадобиться мониторинг систем сотрудников?"
+        answer:
+        - right: true
+          text: "Оценить использование ресурсов"
+        - right: false
+          text: "Для тайного получения коммерческой информации"
+        - right: false
+          text: "Совершенно не нужен"
+        - right: false
+          text: "Обучения использования компьютера"
+        cost: 2
+      - question: "К угрозам не относится"
+        answer:
+        - right: true
+          text: "наблюдение за пользователями"
+        - right: false
+          text: "кража информации"
+        - right: false
+          text: "прекращение обслуживания"
+        - right: false
+          text: "утечка данных"
+        cost: 2
+      - question: "К физической безопасности относится:"
+        answer:
+        - right: true
+          text: "ограничение доступа"
+        - right: false
+          text: "сканеры портов"
+        - right: false
+          text: 'схема "человек посередине"'
+        - right: false
+          text: "вирусы"
+        cost: 2
+      - question: "К вредоносному ПО относится:"
+        answer:
+        - right: true
+          text: "трояны"
+        - right: false
+          text: "DDoS-атаки"
+        - right: false
+          text: "сканеры портов"
+        - right: false
+          text: "резервирование питания"
+        cost: 2
+      - question: "К разведывательным атакам относится:"
+        answer:
+        - right: true
+          text: "эхо-тестирование"
+        - right: false
+          text: "DDoS-атаки"
+        - right: false
+          text: "вирусы"
+        - right: false
+          text: "подбор пароля"
+        cost: 2
+      - question: "К атакам доступа относится:"
+        answer:
+        - right: true
+          text: "подбор пароля"
+        - right: false
+          text: "DDoS-атаки"
+        - right: false
+          text: "вирусы"
+        - right: false
+          text: "эхо-тестирование"
+        cost: 2
+      - question: "К атакам доступа относится:"
+        answer:
+        - right: true
+          text: "злоупотребление доверием"
+        - right: false
+          text: "черви"
+        - right: false
+          text: "сканеры портов"
+        - right: false
+          text: "анализатор пакетов"
+        cost: 2
+      - question: "К атакам \"отказ в обслуживании\" относится:"
+        answer:
+        - right: true
+          text: "Smurf-атака"
+        - right: false
+          text: "вирусы"
+        - right: false
+          text: "сканеры портов"
+        - right: false
+          text: "незаконный посредник"
+        cost: 2
+      - question: "Какое решение не обеспечивает безопасности:"
+        answer:
+        - right: true
+          text: "Подключение по Telnet"
+        - right: false
+          text: "Подключение по SSH"
+        - right: false
+          text: "Аутентификация"
+        - right: false
+          text: "Установка обновлений"
+        cost: 2
+
+#  - select: 'sequence' # 'random', ''
+#    number: 1
+#    items:
+#      - question: "Закодировать заданное слово шифром Вижинера. \n\tАнглийский алфавит: ABCDEFGHIJKLMNOPQRSTUVWXYZ\n\tM={0} и K={1}. E=?"
+#        app: true
+#        script: 'vigener'
+#        parameters: 'ABBACBA;CAB'
+#        answer:
+#          - right: true
+#            text: ""
+#        cost: 10

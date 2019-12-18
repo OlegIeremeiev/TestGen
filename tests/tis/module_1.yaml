@@ -1,0 +1,1210 @@
+discipline: "Телекоммуникационные и информационные сети"
+title: "Модуль №1"
+course: tis
+name: module_1
+pools:
+  - select: 'random' # 1.1
+    number: 1
+    items:
+      - question: "Общий доступ к ресурсам (принтеры, документы) между локальными компьютерами используется в:"
+        answer:
+          - right: true
+            text: "Небольших домашних сетях"
+          - right: false
+            text: "Средних и крупных сетях организаций"
+          - right: false
+            text: "Глобальных сетях"
+          - right: false
+            text: "Сетях малых и домашних офисов"
+        cost: 3
+      - question: "Какие сети используются для хранения, обработки информации на сетевых серверах, совместной работы?"
+        answer:
+          - right: true
+            text: "Средние и крупные сети организаций"
+          - right: false
+            text: "Небольшие домашние сети"
+          - right: false
+            text: "Глобальные сети"
+          - right: false
+            text: "Сети малых и домашних офисов"
+        cost: 3
+      - question: "Какие сети представляют собой объединение частных и общедоступных сетей?"
+        answer:
+          - right: true
+            text: "Глобальные сети"
+          - right: false
+            text: "Небольшие домашние сети"
+          - right: false
+            text: "Средние и крупные сети организаций"
+          - right: false
+            text: "Сети малых и домашних офисов"
+        cost: 3
+      - question: "Какие сети настраиваются для работы из дома или удалённого офиса?"
+        answer:
+          - right: true
+            text: "Сети малых и домашних офисов"
+          - right: false
+            text: "Небольшие домашние сети"
+          - right: false
+            text: "Средние и крупные сети организаций"
+          - right: false
+            text: "Глобальные сети"
+        cost: 3
+  - select: 'random'  # 1.2
+    number: 1
+    items:
+      - question: "Как называются узлы, предоставляющие информацию другим сетевым узлам?"
+        answer:
+          - right: true
+            text: "Серверы"
+          - right: false
+            text: "Клиенты"
+          - right: false
+            text: "Сервисы"
+          - right: false
+            text: "Оконечные устройства"
+        cost: 3
+      - question: "Как называются узлы с установленным ПО, позволяющим запрашивать и отображать полученную информацию?"
+        answer:
+          - right: true
+            text: "Клиенты"
+          - right: false
+            text: "Серверы"
+          - right: false
+            text: "Сервисы"
+          - right: false
+            text: "Среда передачи"
+        cost: 3
+      - question: "Как называются управляющие узлы в одноранговых сетях?"
+        answer:
+          - right: true
+            text: "Нет управляющих узлов"
+          - right: false
+            text: "Серверы"
+          - right: false
+            text: "Сервисы"
+          - right: false
+            text: "Клиенты"
+        cost: 3
+      - question: "Как называется программное обеспечение, которое предоставляет на сетевых устройствах данные в ответ на запрос?"
+        answer:
+          - right: true
+            text: "Сервисы"
+          - right: false
+            text: "Серверы"
+          - right: false
+            text: "Оконечные устройства"
+          - right: false
+            text: "Среда передачи"
+        cost: 3
+      - question: "Компоненты, используемые для соединения устройств - это:"
+        answer:
+          - right: true
+            text: "Среда передачи"
+          - right: false
+            text: "Серверы"
+          - right: false
+            text: "Оконечные устройства"
+          - right: false
+            text: "Сервисы"
+        cost: 3
+  - select: 'random'  # 1.3
+    number: 1
+    items:
+      - question: "Какое интернет-подключение предоставляется поставщиками услуг кабельного телевидения по коаксиальному кабелю?"
+        answer:
+          - right: true
+            text: "Кабельное подключение"
+          - right: false
+            text: "DSL"
+          - right: false
+            text: "Спутниковая связь"
+          - right: false
+            text: "Сотовая связь"
+        cost: 3
+      - question: "Какое интернет-подключение использует телефонную линию с высокой пропускной способностью?"
+        answer:
+          - right: true
+            text: "DSL"
+          - right: false
+            text: "Кабельное подключение"
+          - right: false
+            text: "Спутниковая связь"
+          - right: false
+            text: "Сотовая связь"
+        cost: 3
+      - question: "Какое интернет-подключение использует мобильную телефонную сеть?"
+        answer:
+          - right: true
+            text: "Сотовая связь"
+          - right: false
+            text: "Кабельное подключение"
+          - right: false
+            text: "Спутниковая связь"
+          - right: false
+            text: "DSL"
+        cost: 3
+      - question: "Какое интернет-подключение использует каналы связи со спутниками для доступа в Интернет?"
+        answer:
+          - right: true
+            text: "Спутниковая связь"
+          - right: false
+            text: "Кабельное подключение"
+          - right: false
+            text: "Сотовая связь"
+          - right: false
+            text: "DSL"
+        cost: 3
+  - select: 'random'  # 1.4
+    number: 1
+    items:
+      - question: "Какое требование надежности сети ограничивает влияние возможных сбоев?"
+        answer:
+          - right: true
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Масштабируемость"
+          - right: false
+            text: "Качество обслуживания"
+          - right: false
+            text: "Безопасность"
+        cost: 3
+      - question: "Какое требование надежности сети обеспечивает возможность расширения сети и запуска новых продуктов?"
+        answer:
+          - right: true
+            text: "Масштабируемость"
+          - right: false
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Качество обслуживания"
+          - right: false
+            text: "Безопасность"
+        cost: 3
+      - question: "Какое требование надежности сети определяет приоритеты различных сетевых сервисов?"
+        answer:
+          - right: true
+            text: "Качество обслуживания"
+          - right: false
+            text: "Масштабируемость"
+          - right: false
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Безопасность"
+        cost: 3
+      - question: "Какое требование надежности сети предназначено для предотвращения несанкционированного доступа?"
+        answer:
+          - right: true
+            text: "Безопасность"
+          - right: false
+            text: "Масштабируемость"
+          - right: false
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Качество обслуживания"
+        cost: 3
+  - select: 'random' # 2.1
+    number: 1
+    items:
+      - question: "Какая из перечисленных функций не относится к наиболее значимым для маршрутизаторов или коммутаторов Cisco?"
+        answer:
+          - right: true
+            text: "Широкополосный беспроводный доступ"
+          - right: false
+            text: "Обеспечение безопасности сети"
+          - right: false
+            text: "IP-адресация виртуальных и физических интерфейсов"
+          - right: false
+            text: "Маршрутизация"
+        cost: 3
+      - question: "Какой из режимов отображатся следующим образом: Switch(config)# ?"
+        answer:
+          - right: true
+            text: "Режим глобальной конфигурации"
+          - right: false
+            text: "Пользовательский режим EXEC"
+          - right: false
+            text: "Привилегированный режим EXEC"
+          - right: false
+            text: "Режим настройки интерфейса"
+        cost: 3
+      - question: "Какой из режимов отображатся следующим образом: Switch> ?"
+        answer:
+          - right: true
+            text: "Пользовательский режим EXEC"
+          - right: false
+            text: "Режим глобальной конфигурации"
+          - right: false
+            text: "Привилегированный режим EXEC"
+          - right: false
+            text: "Режим настройки интерфейса"
+        cost: 3
+      - question: "Какой из режимов отображатся следующим образом: Switch# ?"
+        answer:
+          - right: true
+            text: "Привилегированный режим EXEC"
+          - right: false
+            text: "Режим глобальной конфигурации"
+          - right: false
+            text: "Пользовательский режим EXEC"
+          - right: false
+            text: "Режим настройки интерфейса"
+        cost: 3
+      - question: "Какие команды используются для входа в Привилегированный режим EXEC и Режим глобальной конфигурации ?"
+        answer:
+          - right: true
+            text: "enable и configure terminal"
+          - right: false
+            text: "show и line"
+          - right: false
+            text: "line и enable"
+          - right: false
+            text: "configure terminal и interface"
+        cost: 3
+  - select: 'random' # 2.2
+    number: 1
+    items:
+      - question: "Какое подключение обепечивает возможность внеполосного доступа к управляемому устройству?"
+        answer:
+          - right: true
+            text: "Консольный порт"
+          - right: false
+            text: "Telnet"
+          - right: false
+            text: "Протокол Secure Shell"
+          - right: false
+            text: "AUX"
+        cost: 3
+      - question: "Какое подключение обепечивает возможность организации удалённого доступа через виртуальный интерфейс по сети без обеспечения полной безопасности?"
+        answer:
+          - right: true
+            text: "Telnet"
+          - right: false
+            text: "Консольный порт"
+          - right: false
+            text: "Протокол Secure Shell"
+          - right: false
+            text: "AUX"
+        cost: 3
+      - question: "Какое подключение обепечивает возможность организации безопасного удалённого доступа по сети?"
+        answer:
+          - right: true
+            text: "Протокол Secure Shell"
+          - right: false
+            text: "Консольный порт"
+          - right: false
+            text: "Telnet"
+          - right: false
+            text: "AUX"
+        cost: 3
+  - select: 'random' # 3.1
+    number: 3
+    items:
+      - question: "Какое из перечисленных правил не является обязательным?"
+        answer:
+          - right: true
+            text: "Актуальность сообщений"
+          - right: false
+            text: "Кодирование сообщений"
+          - right: false
+            text: "Форматирование и инкапсуляция сообщений"
+          - right: false
+            text: "Синхронизация сообщений"
+        cost: 3
+      - question: "Какой процесс отвечает за преобразования информации в форму, приемлемую для последующей передачи?"
+        answer:
+          - right: true
+            text: "Кодирование"
+          - right: false
+            text: "Инкапсуляция"
+          - right: false
+            text: "Коррекция"
+          - right: false
+            text: "Синхронизация"
+        cost: 3
+      - question: "Какой процесс обеспечивает соответсвие сообщения требованиям к минимальному и максимальному размеру?"
+        answer:
+          - right: true
+            text: "Сегментация"
+          - right: false
+            text: "Инкапсуляция"
+          - right: false
+            text: "Кодирование"
+          - right: false
+            text: "Синхронизация"
+        cost: 3
+      - question: "Какой процесс обеспечивает соответсвие сообщения временным требованиям?"
+        answer:
+          - right: true
+            text: "Синхронизация"
+          - right: false
+            text: "Инкапсуляция"
+          - right: false
+            text: "Кодирование"
+          - right: false
+            text: "Сегментация"
+        cost: 3
+      - question: "Что не определяют сетевые протоколы?"
+        answer:
+          - right: true
+            text: "Особенности и отличия операционных систем"
+          - right: false
+            text: "Способы форматирования и структурирования"
+          - right: false
+            text: "Способ и время передачи сообщений"
+          - right: false
+            text: "Начало и прекращение сенсов передачи данных"
+        cost: 3
+      - question: "Какой уровень отвечает за маршрутизацию в модели OSI?"
+        answer:
+          - right: true
+            text: "Сетевой"
+          - right: false
+            text: "Транспортный"
+          - right: false
+            text: "Сеансовый"
+          - right: false
+            text: "Канальный"
+        cost: 3
+      - question: "Какой уровень отвечает за среды передачи данных в стеке протоколов TCP/IP?"
+        answer:
+          - right: true
+            text: "Уровень доступа к сети"
+          - right: false
+            text: "Межсетевой уровень"
+          - right: false
+            text: "Транспортный уровень"
+          - right: false
+            text: "Уровень приложений"
+        cost: 3
+  - select: 'random' # 4.1
+    number: 2
+    items:
+      - question: "Процесс, при котором характеристика одной волны изменяет другую волну - это:"
+        answer:
+          - right: true
+            text: "Модуляция"
+          - right: false
+            text: "Кодирование"
+          - right: false
+            text: "Асинхронная передача"
+          - right: false
+            text: "Шифрование"
+        cost: 3
+      - question: "В чем особенность асинхронной передачи?"
+        answer:
+          - right: true
+            text: "Сигналы передаются без тактового сигнала"
+          - right: false
+            text: "Используется частотная модуляция"
+          - right: false
+            text: "Используется манчестерское кодирование"
+          - right: false
+            text: "Используется код \"Без возврата к нулю\""
+        cost: 3
+      - question: "Что понимается под затуханием?"
+        answer:
+          - right: true
+            text: "Ослабление сигнала в зависимости от расстояния"
+          - right: false
+            text: "Помехи, искажающие и повреждающие сигналы, передаваемые по кабелю"
+          - right: false
+            text: "Помехи от электрических, магнитных полей смежных кабелей"
+        cost: 3
+      - question: "Что понимается под электромагнитными помехами?"
+        answer:
+          - right: true
+            text: "Помехи, искажающие и повреждающие сигналы, передаваемые по кабелю"
+          - right: false
+            text: "Ослабление сигнала в зависимости от расстояния"
+          - right: false
+            text: "Помехи от электрических, магнитных полей смежных кабелей"
+        cost: 3
+      - question: "Что понимается под перекрестными помехами?"
+        answer:
+          - right: true
+            text: "Помехи от электрических, магнитных полей смежных кабелей"
+          - right: false
+            text: "Ослабление сигнала в зависимости от расстояния"
+          - right: false
+            text: "Помехи, искажающие и повреждающие сигналы, передаваемые по кабелю"
+        cost: 3
+      - question: "Какой тип кабеля маркируется как UTP?"
+        answer:
+          - right: true
+            text: "Неэкраннированная витая пара"
+          - right: false
+            text: "Экранированная витая пара"
+          - right: false
+            text: "Коаксиальный кабель"
+          - right: false
+            text: "Оптоволоконный кабель"
+        cost: 3
+      - question: "Какой тип кабеля маркируется как STP?"
+        answer:
+          - right: true
+            text: "Экранированная витая пара"
+          - right: false
+            text: "Неэкраннированная витая пара"
+          - right: false
+            text: "Коаксиальный кабель"
+          - right: false
+            text: "Оптоволоконный кабель"
+        cost: 3
+      - question: "Что такое одномодовый кабель?"
+        answer:
+          - right: true
+            text: "Оптоволоконный кабель с прямой траекторией для света"
+          - right: false
+            text: "Оптоволоконный кабель с несколькими лучами"
+          - right: false
+            text: "Коаксиальный кабель"
+          - right: false
+            text: "Экранированная витая пара"
+        cost: 3
+      - question: "Какой стандарт описывает технологию Wi-Fi?"
+        answer:
+          - right: true
+            text: "IEEE 802.11"
+          - right: false
+            text: "IEEE 802.3"
+          - right: false
+            text: "IEEE 802.15"
+          - right: false
+            text: "IEEE 802.16"
+        cost: 3
+  - select: 'random' # 4.2
+    number: 1
+    items:
+      - question: "Какая физическая топология не позволяет использовать дуплексный режим передачи данных?"
+        answer:
+          - right: true
+            text: "Шина"
+          - right: false
+            text: "Звезда"
+          - right: false
+            text: "Кольцо"
+          - right: false
+            text: "Точка-точка"
+        cost: 3
+      - question: "Какая физическая топология предполагает наличие центрального узла?"
+        answer:
+          - right: true
+            text: "Звезда"
+          - right: false
+            text: "Шина"
+          - right: false
+            text: "Кольцо"
+          - right: false
+            text: "Точка-точка"
+        cost: 3
+      - question: "Какая физическая топология предполагает подключение всех со всеми?"
+        answer:
+          - right: true
+            text: "Ячеистая"
+          - right: false
+            text: "Звезда"
+          - right: false
+            text: "Кольцо"
+          - right: false
+            text: "Точка-точка"
+        cost: 3
+      - question: "Какая сеть использует множественный доступ с предотвращением коллизии?"
+        answer:
+          - right: true
+            text: "Беспроводная"
+          - right: false
+            text: "Звезда"
+          - right: false
+            text: "Кольцо"
+          - right: false
+            text: "Ethernet"
+        cost: 3
+  - select: 'random' # 5.1
+    number: 3
+    items:
+      - question: "На каком уровне модели OSI определен подуровень МАС?"
+        answer:
+          - right: true
+            text: "Канальный"
+          - right: false
+            text: "Транспортный"
+          - right: false
+            text: "Сетевой"
+          - right: false
+            text: "Физический"
+        cost: 3
+      - question: "Что не обеспечивает подуровень МАС?"
+        answer:
+          - right: true
+            text: "Модуляция"
+          - right: false
+            text: "Обнаружение ошибок"
+          - right: false
+            text: "Разделение кадра"
+          - right: false
+            text: "Адресация"
+        cost: 3
+      - question: "Из скольки шестнадцатричных символов состоит МАС-адрес?"
+        answer:
+          - right: true
+            text: "12"
+          - right: false
+            text: "6"
+          - right: false
+            text: "4"
+          - right: false
+            text: "8"
+        cost: 3
+      - question: "Какое разделение идентификаторов производителя и устройства в МАС-адресе?"
+        answer:
+          - right: true
+            text: "24/24"
+          - right: false
+            text: "16/32"
+          - right: false
+            text: "32/16"
+          - right: false
+            text: "20/28"
+        cost: 3
+      - question: "Какой адрес назначения используется для широковещательного МАС-адреса?"
+        answer:
+          - right: true
+            text: "FF-FF-FF-FF-FF-FF"
+          - right: false
+            text: "00-00-00-00-00-00"
+          - right: false
+            text: "адрес XX-XX-XX-XX-XX-XX, вычисленный на основании МАС-адреса отправителя"
+          - right: false
+            text: "нет специального МАС-адреса"
+        cost: 3
+      - question: "Какой протокол предназначен для сопоставления IP и МАС-адреса?"
+        answer:
+          - right: true
+            text: "ARP"
+          - right: false
+            text: "DNS"
+          - right: false
+            text: "IP"
+          - right: false
+            text: "PPP"
+        cost: 3
+      - question: "Какая адресация используется для ARP-ответа?"
+        answer:
+          - right: true
+            text: "Одноадресная"
+          - right: false
+            text: "Широковещательная"
+          - right: false
+            text: "Групповая"
+          - right: false
+            text: "Многоадресная"
+        cost: 3
+      - question: "Какое поле пустое в ARP-запросе?"
+        answer:
+          - right: true
+            text: "МАС-адрес получателя"
+          - right: false
+            text: "МАС-адрес отправителя"
+          - right: false
+            text: "IP-адрес получателя"
+          - right: false
+            text: "IP-адрес отправителя"
+        cost: 3
+  - select: 'random' # 6.1
+    number: 3
+    items:
+      - question: "На каком уровне модели OSI определена маршрутизация?"
+        answer:
+          - right: true
+            text: "Сетевой"
+          - right: false
+            text: "Транспортный"
+          - right: false
+            text: "Канальный"
+          - right: false
+            text: "Физический"
+        cost: 3
+      - question: "На каком уровне модели OSI работают протоколы IPv4 и IPv6?"
+        answer:
+          - right: true
+            text: "Сетевой"
+          - right: false
+            text: "Транспортный"
+          - right: false
+            text: "Канальный"
+          - right: false
+            text: "Физический"
+        cost: 3
+      - question: "Что обеспечивет протокол IP?"
+        answer:
+          - right: true
+            text: "Определение маршрута"
+          - right: false
+            text: "Установление соединения"
+          - right: false
+            text: "Гарантированная доставка"
+          - right: false
+            text: "Зависимость от среды"
+        cost: 3
+      - question: "Какое из полей отсутствует в заголовке пакета IPv4?"
+        answer:
+          - right: true
+            text: "МАС-адрес получателя"
+          - right: false
+            text: "IP-адрес источника"
+          - right: false
+            text: "Версия протокола"
+          - right: false
+            text: "Поле, отвечающее за приоритет пакета"
+        cost: 3
+      - question: "Какое из полей отсутствует в заголовке пакета IPv6?"
+        answer:
+          - right: true
+            text: "МАС-адрес источника"
+          - right: false
+            text: "IP-адрес получателя"
+          - right: false
+            text: "Версия протокола"
+          - right: false
+            text: "Поле, отвечающее за приоритет пакета"
+        cost: 3
+      - question: "Какое устройство отвечает за взаимодействие сетей и переадресацию пакетов между ними?"
+        answer:
+          - right: true
+            text: "Маршрутизатор"
+          - right: false
+            text: "Коммутатор"
+          - right: false
+            text: "Концентратор"
+          - right: false
+            text: "Модем"
+        cost: 3
+      - question: "Что не указывается в таблице маршрутизации?"
+        answer:
+          - right: true
+            text: "МАС-адрес интерфейса"
+          - right: false
+            text: "Номер интерфейса"
+          - right: false
+            text: "IP-адрес интерфейса"
+          - right: false
+            text: "Маска интерфейса"
+        cost: 3
+  - select: 'random' # 7.1
+    number: 2
+    items:
+      - question: "Сколько бит занимает IP-адрес?"
+        answer:
+          - right: true
+            text: "32"
+          - right: false
+            text: "128"
+          - right: false
+            text: "48"
+          - right: false
+            text: "64"
+        cost: 3
+      - question: "Какой префикс стандартно используется для адресов 192.168.х.х?"
+        answer:
+          - right: true
+            text: "/24"
+          - right: false
+            text: "/16"
+          - right: false
+            text: "/8"
+          - right: false
+            text: "/12"
+        cost: 3
+      - question: "Какой префикс стандартно используется для адресов 192.168.х.х?"
+        answer:
+          - right: true
+            text: "/24"
+          - right: false
+            text: "/16"
+          - right: false
+            text: "/8"
+          - right: false
+            text: "/12"
+        cost: 3
+      - question: "Сколько бит занимает IP-адрес версии 6?"
+        answer:
+          - right: true
+            text: "128"
+          - right: false
+            text: "32"
+          - right: false
+            text: "48"
+          - right: false
+            text: "64"
+        cost: 3
+      - question: "Сколько гекстетов содержит адрес FF02::1 ?"
+        answer:
+          - right: true
+            text: "8"
+          - right: false
+            text: "6"
+          - right: false
+            text: "2"
+          - right: false
+            text: "4"
+        cost: 3
+      - question: "Какой префикс стандартно используется для адресов IPv6?"
+        answer:
+          - right: true
+            text: "/64"
+          - right: false
+            text: "/48"
+          - right: false
+            text: "/32"
+          - right: false
+            text: "/16"
+        cost: 3
+  - select: 'random' # 7.2
+    number: 1
+    items:
+      - question: "Укажите сетевой адрес для сети 192.168.1.х :"
+        answer:
+          - right: true
+            text: "192.168.1.0"
+          - right: false
+            text: "192.168.1.254"
+          - right: false
+            text: "192.168.1.255"
+          - right: false
+            text: "192.168.1.1"
+        cost: 4
+      - question: "Укажите широковещательный адрес для сети 192.168.1.х :"
+        answer:
+          - right: true
+            text: "192.168.1.255"
+          - right: false
+            text: "192.168.1.254"
+          - right: false
+            text: "192.168.1.0"
+          - right: false
+            text: "192.168.1.1"
+        cost: 4
+      - question: "Укажите рекомендованный адрес шлюза по умолчанию для сети 192.168.1.х :"
+        answer:
+          - right: true
+            text: "192.168.1.1"
+          - right: false
+            text: "192.168.1.254"
+          - right: false
+            text: "192.168.1.0"
+          - right: false
+            text: "192.168.1.255"
+        cost: 4
+      - question: "Какой из адресов IPv4 может использоваться для групповой рассылки?"
+        answer:
+          - right: true
+            text: "224.12.1.5"
+          - right: false
+            text: "10.0.1.1"
+          - right: false
+            text: "127.0.0.1"
+          - right: false
+            text: "255.255.255.255"
+        cost: 4
+  - select: 'random' # 8.1 ???????
+    number: 3
+    items:
+      - question: "Сколько узлов позволяет содержать префикс /27?"
+        answer:
+          - right: true
+            text: "30"
+          - right: false
+            text: "14"
+          - right: false
+            text: "62"
+          - right: false
+            text: "2"
+        cost: 3
+      - question: "Сколько узлов позволяет содержать префикс /30?"
+        answer:
+          - right: true
+            text: "2"
+          - right: false
+            text: "14"
+          - right: false
+            text: "62"
+          - right: false
+            text: "30"
+        cost: 3
+      - question: "Сколько узлов позволяет содержать префикс /26?"
+        answer:
+          - right: true
+            text: "62"
+          - right: false
+            text: "14"
+          - right: false
+            text: "2"
+          - right: false
+            text: "30"
+        cost: 3
+      - question: "Сколько узлов позволяет содержать префикс /28?"
+        answer:
+          - right: true
+            text: "14"
+          - right: false
+            text: "62"
+          - right: false
+            text: "2"
+          - right: false
+            text: "30"
+        cost: 3
+  - select: 'random' # 9.1
+    number: 2
+    items:
+      - question: "За что не отвечает транспортный уровень модели OSI?"
+        answer:
+          - right: true
+            text: "Маршрутизацию"
+          - right: false
+            text: "Поддержку сеансов связи"
+          - right: false
+            text: "Повторную пересылку пакетов"
+          - right: false
+            text: "Мультиплексирование"
+        cost: 3
+      - question: "Каким образом ТCP обеспечивает надежность?"
+        answer:
+          - right: true
+            text: "Пересылкой неподтвержденных пакетов"
+          - right: false
+            text: "Дублированием пакетов по разным маршрутам"
+          - right: false
+            text: "Не гарантирует доставку"
+          - right: false
+            text: "Пересылкой всех пакетов по таймауту"
+        cost: 3
+      - question: "В чем преимущество протокола UDP?"
+        answer:
+          - right: true
+            text: "Высокое быстродействие"
+          - right: false
+            text: "Надежность передачи"
+          - right: false
+            text: "Обеспечивает выбор кратчайшего маршрута"
+          - right: false
+            text: "Во всем хуже чем TCP"
+        cost: 3
+      - question: "Для каких данных/протоколов используется протокол ТCP?"
+        answer:
+          - right: true
+            text: "HTTP"
+          - right: false
+            text: "VoIP"
+          - right: false
+            text: "IPTV"
+          - right: false
+            text: "DHCP"
+        cost: 3
+      - question: "Для каких данных/протоколов используется протокол UDP?"
+        answer:
+          - right: true
+            text: "DNS"
+          - right: false
+            text: "SMTP"
+          - right: false
+            text: "Telnet"
+          - right: false
+            text: "SSH"
+        cost: 3
+      - question: "Для чего нужен порт в транспортном уровне?"
+        answer:
+          - right: true
+            text: "идентификации приложения"
+          - right: false
+            text: "стоянка для кораблей"
+          - right: false
+            text: "построения маршрута"
+          - right: false
+            text: "порт не является элементом транспортного уровня"
+        cost: 3
+      - question: "Что такое сокет?"
+        answer:
+          - right: true
+            text: "комбинация IP-адреса и номера порта"
+          - right: false
+            text: "комбинация IP-адресов отправителя и получателя"
+          - right: false
+            text: "комбинация портов отправителя и получателя"
+          - right: false
+            text: "Системная служба, гарантирующая мультиплексирование пакетов"
+        cost: 3
+  - select: 'random' # 9.2
+    number: 1
+    items:
+      - question: "Какое поле заголовка TCP позволяет восстановить нужную последовательность сегментов данных?"
+        answer:
+          - right: true
+            text: "Порядковый номер"
+          - right: false
+            text: "Номер подтверждения"
+          - right: false
+            text: "Порт источника"
+          - right: false
+            text: "Контрольная сумма"
+        cost: 3
+      - question: "Какое поле заголовка TCP позволяет определить потерянные пакеты данных?"
+        answer:
+          - right: true
+            text: "Номер подтверждения"
+          - right: false
+            text: "Порядковый номер"
+          - right: false
+            text: "Порт источника"
+          - right: false
+            text: "Контрольная сумма"
+        cost: 3
+      - question: "Какое поле заголовка TCP позволяет определить какое клиентское приложение делает запрос?"
+        answer:
+          - right: true
+            text: "Порт источника"
+          - right: false
+            text: "Порядковый номер"
+          - right: false
+            text: "Номер подтверждения"
+          - right: false
+            text: "Контрольная сумма"
+        cost: 3
+      - question: "Какое поле заголовка TCP позволяет определить целостность сегмента?"
+        answer:
+          - right: true
+            text: "Контрольная сумма"
+          - right: false
+            text: "Порядковый номер"
+          - right: false
+            text: "Номер подтверждения"
+          - right: false
+            text: "Порт источника"
+        cost: 3
+  - select: 'random' # 10.1
+    number: 3
+    items:
+      - question: "Уровень приложений отвечает за"
+        answer:
+          - right: true
+            text: "Взаимодействие с пользователем"
+          - right: false
+            text: "Форматирование данных"
+          - right: false
+            text: "Шифрование данных"
+          - right: false
+            text: "Организацию сеансов связи"
+        cost: 3
+      - question: "Уровень представлений отвечает за"
+        answer:
+          - right: true
+            text: "Шифрование данных"
+          - right: false
+            text: "Взаимодействие с пользователем"
+          - right: false
+            text: "Обмен данных между программами"
+          - right: false
+            text: "Организацию сеансов связи"
+        cost: 3
+      - question: "Сеансовый уровень отвечает за"
+        answer:
+          - right: true
+            text: "Организацию сеансов связи"
+          - right: false
+            text: "Обмен данных между программами"
+          - right: false
+            text: "Шифрование данных"
+          - right: false
+            text: "Форматирование данных"
+        cost: 3
+      - question: "BitTorrent является"
+        answer:
+          - right: true
+            text: "Одноранговой сетью"
+          - right: false
+            text: "Клиент-серверным приложением"
+          - right: false
+            text: "Веб-сервисом"
+          - right: false
+            text: "Сервером"
+        cost: 3
+      - question: "Протокол HTTP отвечает за "
+        answer:
+          - right: true
+            text: "передачу гипертекста"
+          - right: false
+            text: "передачу файлов"
+          - right: false
+            text: "передачу почты"
+          - right: false
+            text: "преобразование доменного имени"
+        cost: 3
+      - question: "Протокол DNS отвечает за "
+        answer:
+          - right: true
+            text: "преобразование доменного имени"
+          - right: false
+            text: "передачу гипертекста"
+          - right: false
+            text: "передачу файлов"
+          - right: false
+            text: "передачу почты"
+        cost: 3
+      - question: "Протокол IMAP отвечает за "
+        answer:
+          - right: true
+            text: "прием почты"
+          - right: false
+            text: "передачу почты"
+          - right: false
+            text: "передачу файлов"
+          - right: false
+            text: "преобразование доменного имени"
+        cost: 3
+      - question: "Протокол SMTP отвечает за "
+        answer:
+          - right: true
+            text: "передачу почты"
+          - right: false
+            text: "прием почты"
+          - right: false
+            text: "передачу файлов"
+          - right: false
+            text: "преобразование доменного имени"
+        cost: 3
+  - select: 'random' # 11.1
+    number: 3
+    items:
+      - question: "Проектирование небольшой сети не предполагает:"
+        answer:
+          - right: true
+            text: "подключения значительного количества устройств"
+          - right: false
+            text: "резервирования каналов и серверов"
+          - right: false
+            text: "обеспечения безопасности"
+          - right: false
+            text: "использование топологий"
+        cost: 3
+      - question: "Для чего администратору могут потребоваться сведения о типовых задачах предприятия?"
+        answer:
+          - right: true
+            text: "для настройки QoS"
+          - right: false
+            text: "не требуется"
+          - right: false
+            text: "не предоставляется, является коммерческой тайной"
+          - right: false
+            text: "для обеспечения резервирования"
+        cost: 3
+      - question: "Что не обязательно при проектировании расширения сети?"
+        answer:
+          - right: true
+            text: "Изменение WAN подключения"
+          - right: false
+            text: "Инвентаризация"
+          - right: false
+            text: "Бюджет"
+          - right: false
+            text: "Сетевая документация"
+        cost: 3
+      - question: "Для чего администратору может понадобиться мониторинг систем сотрудников?"
+        answer:
+          - right: true
+            text: "Оценить использование ресурсов"
+          - right: false
+            text: "Для тайного получения коммерческой информации"
+          - right: false
+            text: "Совершенно не нужен"
+          - right: false
+            text: "Для обучения использованию компьютера"
+        cost: 3
+      - question: "К угрозам не относится"
+        answer:
+          - right: true
+            text: "наблюдение за пользователями"
+          - right: false
+            text: "кража информации"
+          - right: false
+            text: "прекращение обслуживания"
+          - right: false
+            text: "утечка данных"
+        cost: 3
+      - question: "К физической безопасности относится:"
+        answer:
+          - right: true
+            text: "ограничение доступа"
+          - right: false
+            text: "сканеры портов"
+          - right: false
+            text: 'схема "человек посередине"'
+          - right: false
+            text: "вирусы"
+        cost: 3
+      - question: "К вредоносному ПО относится:"
+        answer:
+          - right: true
+            text: "трояны"
+          - right: false
+            text: "DDoS-атаки"
+          - right: false
+            text: "сканеры портов"
+          - right: false
+            text: "резервирование питания"
+        cost: 3
+      - question: "К разведывательным атакам относится:"
+        answer:
+          - right: true
+            text: "эхо-тестирование"
+          - right: false
+            text: "DDoS-атаки"
+          - right: false
+            text: "вирусы"
+          - right: false
+            text: "подбор пароля"
+        cost: 3
+      - question: "К атакам доступа относится:"
+        answer:
+          - right: true
+            text: "подбор пароля"
+          - right: false
+            text: "DDoS-атаки"
+          - right: false
+            text: "вирусы"
+          - right: false
+            text: "эхо-тестирование"
+        cost: 3
+      - question: "К атакам доступа относится:"
+        answer:
+          - right: true
+            text: "злоупотребление доверием"
+          - right: false
+            text: "черви"
+          - right: false
+            text: "сканеры портов"
+          - right: false
+            text: "анализатор пакетов"
+        cost: 3
+      - question: "К атакам \"отказ в обслуживании\" относится:"
+        answer:
+          - right: true
+            text: "Smurf-атака"
+          - right: false
+            text: "вирусы"
+          - right: false
+            text: "сканеры портов"
+          - right: false
+            text: "незаконный посредник"
+        cost: 3
+      - question: "Какое решение не обеспечивает безопасности:"
+        answer:
+          - right: true
+            text: "Подключение по Telnet"
+          - right: false
+            text: "Подключение по SSH"
+          - right: false
+            text: "Аутентификация"
+          - right: false
+            text: "Установка обновлений"
+        cost: 3
+
+

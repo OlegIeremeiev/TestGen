@@ -1,0 +1,204 @@
+discipline: "Телекоммуникационные и информационные сети"
+title: "Лекция №1"
+course: tis
+name: lecture_1
+pools:
+  - select: 'random' # 1.1
+    number: 1
+    items:
+      - question: "Общий доступ к ресурсам (принтеры, документы) между локальными компьютерами используется в:"
+        answer:
+          - right: true
+            text: "Небольших домашних сетях"
+          - right: false
+            text: "Средних и крупных сетях организаций"
+          - right: false
+            text: "Глобальных сетях"
+          - right: false
+            text: "Сетях малых и домашних офисов"
+        cost: 2
+      - question: "Какие сети используются для хранения, обработки информации на сетевых серверах, совместной работы?"
+        answer:
+          - right: true
+            text: "Средние и крупные сети организаций"
+          - right: false
+            text: "Небольшие домашние сети"
+          - right: false
+            text: "Глобальные сети"
+          - right: false
+            text: "Сети малых и домашних офисов"
+        cost: 2
+      - question: "Какие сети представляют собой объединение частных и общедоступных сетей?"
+        answer:
+          - right: true
+            text: "Глобальные сети"
+          - right: false
+            text: "Небольшие домашние сети"
+          - right: false
+            text: "Средние и крупные сети организаций"
+          - right: false
+            text: "Сети малых и домашних офисов"
+        cost: 2
+      - question: "Какие сети настраиваются для работы из дома или удалённого офиса?"
+        answer:
+          - right: true
+            text: "Сети малых и домашних офисов"
+          - right: false
+            text: "Небольшие домашние сети"
+          - right: false
+            text: "Средние и крупные сети организаций"
+          - right: false
+            text: "Глобальные сети"
+        cost: 2
+  - select: 'random'  # 1.2
+    number: 1
+    items:
+      - question: "Как называются узлы, предоставляющие информацию другим сетевым узлам?"
+        answer:
+        - right: true
+          text: "Серверы"
+        - right: false
+          text: "Клиенты"
+        - right: false
+          text: "Сервисы"
+        - right: false
+          text: "Оконечные устройства"
+        cost: 3
+      - question: "Как называются узлы с установленным ПО, позволяющим запрашивать и отображать полученную информацию?"
+        answer:
+        - right: true
+          text: "Клиенты"
+        - right: false
+          text: "Серверы"
+        - right: false
+          text: "Сервисы"
+        - right: false
+          text: "Среда передачи"
+        cost: 3
+      - question: "Как называются управляющие узлы в одноранговых сетях?"
+        answer:
+          - right: true
+            text: "Нет управляющих узлов"
+          - right: false
+            text: "Серверы"
+          - right: false
+            text: "Сервисы"
+          - right: false
+            text: "Клиенты"
+        cost: 3
+      - question: "Как называется программное обеспечение, которое предоставляет на сетевых устройствах данные в ответ на запрос?"
+        answer:
+          - right: true
+            text: "Сервисы"
+          - right: false
+            text: "Серверы"
+          - right: false
+            text: "Оконечные устройства"
+          - right: false
+            text: "Среда передачи"
+        cost: 3
+      - question: "Компоненты, используемые для соединения устройств - это:"
+        answer:
+          - right: true
+            text: "Среда передачи"
+          - right: false
+            text: "Серверы"
+          - right: false
+            text: "Оконечные устройства"
+          - right: false
+            text: "Сервисы"
+        cost: 3
+  - select: 'random'  # 1.3
+    number: 1
+    items:
+      - question: "Какое интернет-подключение предоставляется поставщиками услуг кабельного телевидения по коаксиальному кабелю?"
+        answer:
+          - right: true
+            text: "Кабельное подключение"
+          - right: false
+            text: "DSL"
+          - right: false
+            text: "Спутниковая связь"
+          - right: false
+            text: "Сотовая связь"
+        cost: 2
+      - question: "Какое интернет-подключение использует телефонную линию с высокой пропускной способностью?"
+        answer:
+          - right: true
+            text: "DSL"
+          - right: false
+            text: "Кабельное подключение"
+          - right: false
+            text: "Спутниковая связь"
+          - right: false
+            text: "Сотовая связь"
+        cost: 2
+      - question: "Какое интернет-подключение использует мобильную телефонную сеть?"
+        answer:
+          - right: true
+            text: "Сотовая связь"
+          - right: false
+            text: "Кабельное подключение"
+          - right: false
+            text: "Спутниковая связь"
+          - right: false
+            text: "DSL"
+        cost: 2
+      - question: "Какое интернет-подключение использует каналы связи со спутниками для доступа в Интернет?"
+        answer:
+          - right: true
+            text: "Спутниковая связь"
+          - right: false
+            text: "Кабельное подключение"
+          - right: false
+            text: "Сотовая связь"
+          - right: false
+            text: "DSL"
+        cost: 2
+  - select: 'random'  # 1.4
+    number: 1
+    items:
+      - question: "Какое требование надежности сети ограничивает влияние возможных сбоев?"
+        answer:
+          - right: true
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Масштабируемость"
+          - right: false
+            text: "Качество обслуживания"
+          - right: false
+            text: "Безопасность"
+        cost: 3
+      - question: "Какое требование надежности сети обеспечивает возможность расширения сети и запуска новых продуктов?"
+        answer:
+          - right: true
+            text: "Масштабируемость"
+          - right: false
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Качество обслуживания"
+          - right: false
+            text: "Безопасность"
+        cost: 3
+      - question: "Какое требование надежности сети определяет приоритеты различных сетевых сервисов?"
+        answer:
+          - right: true
+            text: "Качество обслуживания"
+          - right: false
+            text: "Масштабируемость"
+          - right: false
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Безопасность"
+        cost: 3
+      - question: "Какое требование надежности сети предназначено для предотвращения несанкционированного доступа?"
+        answer:
+          - right: true
+            text: "Безопасность"
+          - right: false
+            text: "Масштабируемость"
+          - right: false
+            text: "Отказоустойчивость"
+          - right: false
+            text: "Качество обслуживания"
+        cost: 3

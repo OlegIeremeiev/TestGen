@@ -1,5 +1,6 @@
 import string, os
 from docx import Document
+# from docx.enum.text import WD_BREAK
 from docx.shared import *
 
 
@@ -10,7 +11,7 @@ class TestDocx:
         self.answers = Document()
 
     def write_test(self, data, count):
-        table_columns = 10
+        table_columns = 8
         folders = ('generated', os.path.sep + data['general']['course'])
 
         self.__set_margins(self.tests, [1, 1, 1, 1])
@@ -24,10 +25,10 @@ class TestDocx:
             # title section
             tests_header = data['general']['discipline'] + ", " + data['general']['title']
             tests_header += '\t\tВариант №' + str(variant + 1)
-            self.__set_paragraph(self.tests.add_paragraph(tests_header), (1, 0, 12))
+            self.__set_paragraph(self.tests.add_paragraph(tests_header), (1, 0, 8))
 
-            text = 'ФИО:\t\t\t\t\tГруппа:\t\t\tДата:'
-            self.__set_paragraph(self.tests.add_paragraph(text), (1, 0, 12))
+            text = 'ФИО:\t\t\t\t\t\t\tГруппа:\t\t\tДата:'
+            self.__set_paragraph(self.tests.add_paragraph(text), (1, 0, 8))
 
             self.answers.add_paragraph(tests_header)
             self.answers.add_paragraph()
@@ -46,9 +47,9 @@ class TestDocx:
             questions = data['questions'][variant % len(data['questions'])]
             table_data = [[]] * len(questions)
             for index, question in zip(list(range(len(questions))), questions):
-                self.tests.add_paragraph(str(index + 1) + '.\t' + question.question) #+ " / " + str(question.index))
+                self.tests.add_paragraph(str(index + 1) + '.\t' + question.question)
                 for ind, ans in zip(alphabet, question.answers):
-                    txt = ind + ")\t" + ans['text'] # + " / " + str(ans['right'])
+                    txt = ind + ")\t" + ans['text']
                     self.tests.add_paragraph(txt)
                 self.tests.add_paragraph()
                 table_data[index] = [index, question.cost, question.correct]
@@ -77,12 +78,20 @@ class TestDocx:
                 self.__set_cell_paragraph(table.cell(row_begin + 2, col_ind), str(cost))
 
                 self.__set_cell_paragraph(table_answers.cell(row_begin, col_ind), str(ind + 1))
-                self.__set_cell_paragraph(table_answers.cell(row_begin + 1, col_ind), corr)#chr(ord('A') + corr))
+                self.__set_cell_paragraph(table_answers.cell(row_begin + 1, col_ind), corr)
                 self.__set_cell_paragraph(table_answers.cell(row_begin + 2, col_ind), str(cost))
                 col_ind += 1
 
             if variant < count - 1:
                 self.tests.add_page_break()
+
+# >>> run._element.xml
+# <w:r>
+# <w:t>Text before</w:t>
+# <w:br/>
+# <w:t>and after line break</w:t>
+# </w:r>
+
 
         tmp=''
         for fold in folders:

@@ -4,8 +4,8 @@ from src.testdocx import TestDocx
 
 
 def main(config):
-    variants = 15
-    students = 15
+    variants = 20
+    students = 20
     tests = generate_test(config, variants)
     write_test(tests, students)
 
@@ -16,7 +16,7 @@ def generate_test(config, variants):
                    'filename': config['course'] + "_" + config['name']}
             }
     questions = [[] for x in range(variants)]
-
+    quest_indices = []
     for i in range(len(config['pools'])):
         pool = config['pools'][i]
         size = len(pool['items'])
@@ -56,20 +56,16 @@ def generate_test(config, variants):
                 qtmp.index = index
                 questions[row].append(qtmp)
 
-    # [ random.shuffle(x) for x in questions ]
+    [ random.shuffle(x) for x in questions ]
     test['questions'] = questions
     return test
-
 
 def write_test(tests, students):
     doc = TestDocx()
     doc.write_test(tests, students)
-    # doc.
-
 
 if __name__ == '__main__':
-    configpath = 'tests/cyber/test.yaml'
-    # configpath = 'tests/tis/lecture_9.yaml'
+    configpath = 'tests/tis/module_2.yaml'
     config = yaml.load(open(configpath,'r'), Loader=yaml.SafeLoader)
     print("{0} : {1}".format(config['course'],config['name']))
     main(config)
